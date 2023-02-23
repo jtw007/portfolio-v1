@@ -1,18 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 .body {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Indie Flower', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
-  /* background-color: black; */
+  /* background-color: white; */
+  background-color: rgb(25, 25, 25);
+  color: rgb(21, 225, 99);
 }
 
 ul, li, a{
   list-style-type: none;
   text-decoration: none;
-  color: limegreen;
+  /* color: limegreen; */
 }
+
+/*  ===== About Start ===== */
+#About {
+  /* border: 1px solid orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#about-text{
+  /* border: 1px solid purple; */
+  display: flex;
+  width: 25%;
+  background: 
+    linear-gradient(
+      to left, 
+      rgba(9,121,48,1) 0%,
+      rgba(0,255,132,1) 100%
+    )
+    bottom
+    no-repeat;
+  background-size:65% 5px;
+  justify-content: center;
+}
+
+#about-body {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#about-body > img {
+  /* border: 1px solid gold; */
+  max-width: 85vw;
+  border-radius: 50%;
+}
+
+#me-skills{
+  display: flex;
+  flex-direction: column;
+}
+#about-me{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: start;
+  width: 75vw;
+}
+
+#me-text{
+  font-size: large;
+}
+
+#box-container{
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#about-me-skills{
+  display: flex;
+  flex-direction: column;
+}
+
+#stack{
+  font-size: large;
+  background: 
+    linear-gradient(
+      to left, 
+      rgba(9,121,48,1) 0%,
+      rgba(0,255,132,1) 100%
+    )
+    bottom
+    no-repeat;
+  background-size: 9% 5px;
+}
+  /* box 1 */
+.devicon-react-original {
+  font-size: 20px;
+}
+
+.devicon-javascript-plain{
+  font-size: 20px;
+}
+/*  ===== About End ===== */
 
 
 
