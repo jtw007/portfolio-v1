@@ -36,7 +36,13 @@ export default function About() {
                                     <p>HTML5</p>
                                 </div>
                             </div>
-                            
+                            {/* box 4 */}
+                            <div class='about-skills'>
+                                <i class="devicon-css3-plain colored"></i>
+                                <div class='css-container'>
+                                    <p>CSS3</p>
+                                </div>
+                            </div>
 
                         </div>
                         
