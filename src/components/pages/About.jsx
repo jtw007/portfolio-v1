@@ -3,8 +3,20 @@ export default function About() {
     return(
         <div id='About' className='text slide'>
             <h1 id='about-text'>JoshWu.about</h1>
+            <p id='connect'>Connect with me!</p>
+            <div id='about-contact'>
+                <div class='contact-container'>
+                    <a href="https://www.linkedin.com/in/joshuatwudev/" target="_blank"><i class="devicon-linkedin-plain colored"></i></a>
+                </div>
+                <div class='contact-container'>
+                    <a href="https://github.com/jtw007" target="_blank"><i class="devicon-github-original-wordmark colored"></i></a>
+                </div>
+            </div>
+
             <div id='about-body'>
-                <img src='../../../assets/sampleProfile.jpeg' alt='photo of Josh'/>
+                <div id='img-container'>
+                    <img src='../../../assets/sampleProfile.jpeg' alt='photo of Josh'/>
+                </div>
 
                 <div id='me-skills'>
 
