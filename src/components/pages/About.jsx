@@ -5,6 +5,7 @@ export default function About() {
             <h1 id='about-text'>JoshWu.about</h1>
             <div id='about-body'>
                 <img src='../../../assets/sampleProfile.jpeg' alt='photo of Josh'/>
+
                 <div id='me-skills'>
 
                     <div id='about-me'>
@@ -12,7 +13,7 @@ export default function About() {
                     </div>
 
                     <div id="about-me-skills">
-                        <p id='stack'>Current Stack</p>
+                        <p id='stack'>Current Stack 📚</p>
 
                         <div id='box-container'>
                             {/* Box 1 */}
@@ -41,6 +42,41 @@ export default function About() {
                                 <i class="devicon-css3-plain colored"></i>
                                 <div class='css-container'>
                                     <p>CSS3</p>
+                                </div>
+                            </div>
+                            {/* box 5 */}
+                            <div class='about-skills'>
+                                <i class="devicon-express-original"></i>
+                                <div class='express-container'>
+                                    <p>Express</p>
+                                </div>
+                            </div>
+                            {/* box 6 */}
+                            <div class='about-skills'>
+                                <i class="devicon-nodejs-plain colored"></i>
+                                <div class='node-container'>
+                                    <p>Node.js</p>
+                                </div>
+                            </div>
+                            {/* box 7 */}
+                            <div class='about-skills'>
+                                <i class="devicon-bootstrap-plain colored"></i>
+                                <div class='node-container'>
+                                    <p>Bootstrap</p>
+                                </div>
+                            </div>
+                            {/* box 8 */}
+                            <div class='about-skills'>
+                                <i class="devicon-postgresql-plain colored"></i>
+                                <div class='node-container'>
+                                    <p>PostgreSQL</p>
+                                </div>
+                            </div>
+                            {/* box 9 */}
+                            <div class='about-skills'>
+                                <i class="devicon-mongodb-plain colored"></i>
+                                <div class='node-container'>
+                                    <p>MongoDB</p>
                                 </div>
                             </div>
 

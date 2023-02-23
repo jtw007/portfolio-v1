@@ -20,14 +20,11 @@ function App() {
   return (
     <div className='body'>
       <Router>
-
         <header>
           <NavBar />
         </header>
 
-        <div className='App'>
           <About />
-        </div>
       </Router>
     </div>
   );
