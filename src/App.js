@@ -14,7 +14,7 @@ import './index.css'
 // components import
 import NavBar from './components/NavBar.jsx'
 import About from './components/pages/About';
-
+import Projects from './components/pages/Projects';
 
 function App() {
   return (
@@ -25,6 +25,8 @@ function App() {
         </header>
 
           <About />
+
+          <Projects />
       </Router>
     </div>
   );

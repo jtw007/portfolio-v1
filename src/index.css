@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .body {
   font-family: 'Indie Flower', cursive;
   -webkit-font-smoothing: antialiased;
@@ -7,13 +12,12 @@
   background-color: white;
   /* background-color: rgb(25, 25, 25); */
   color: rgb(21, 225, 99);
-  /* margin-left: 15%;
-  margin-right: 15%; */
+  flex-direction: column;
 }
 
 /*  =====navbar start===== */
-.nav-text{
-  font-weight: 900;
+.nav-text {
+  font-weight: bold;
 }
 
 /*  =====navbar end===== */
@@ -28,7 +32,7 @@
   width: 100vw;
 }
 
-#about-text{
+#about-text {
   display: flex;
   width: 25%;
   background: 
@@ -43,7 +47,7 @@
   justify-content: center;
 }
 
-#connect{
+#connect {
   margin-bottom: 2px;
   /* display: flex;
   width: 25%;
@@ -60,7 +64,7 @@
 }
 
   /*  contact start */
-#about-contact{
+#about-contact {
   /* border: 1px solid red; */
   display: flex;
   justify-content: center;
@@ -69,7 +73,7 @@
   flex-direction: row;
 }
 
-.contact-container{
+.contact-container {
   /* border: 1px solid red; */
   display: flex;
   justify-content: center;
@@ -79,7 +83,7 @@
   width: 25%;
 }
 
-.contact-container > a{
+.contact-container > a {
   list-style-type: none;
   text-decoration: none;
 }
@@ -94,7 +98,7 @@
   justify-content: space-around;
 }
 
-#img-container{
+#img-container {
   /* border: 1px solid red; */
   display: flex;
 }
@@ -107,31 +111,33 @@
   border-radius: 50%;
 }
 
-#me-skills{
+#me-skills {
   display: flex;
   flex-direction: column;
 }
 
   /*  about me container  */
-#about-me{
+#about-me {
   /* border: 1px solid red; */
   display: flex;
   justify-content: start;
   width: 75vw;
 }
 
-#me-text{
+#me-text {
   font-size: large;
 }
 
   /* stack container */
-#about-me-skills{
+#about-me-skills {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-#stack{
+#stack {
+  /* border: 1px solid red; */
+  width: 82%;
   display: flex;
   justify-content: center;
   font-size: large;
@@ -146,7 +152,7 @@
   background-size: 9% 5px;
 }
 
-#box-container{
+#box-container {
   /* border: 1px solid red; */
   display: flex;
   flex-direction: row;
@@ -154,7 +160,7 @@
   width: 95%;
 }
 
- .about-skills{
+ .about-skills {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,6 +170,29 @@
 
 /*  ===== About End ===== */
 
+/*  ===== Project start */
+.projects{
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: auto;
+}
+
+.project-title{
+  border: 1px solid blue;
+}
+
+.project-container{
+  border: 1px solid purple;
+}
+
+.project-img{
+  max-width: 600px;
+}
+/*  ===== Project end */
 
 
 
