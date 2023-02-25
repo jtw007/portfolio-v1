@@ -20,7 +20,7 @@ function App() {
   return (
     <div className='body'>
       <Router>
-        <header>
+        <header className=''>
           <NavBar />
         </header>
 

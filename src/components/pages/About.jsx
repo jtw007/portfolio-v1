@@ -5,11 +5,11 @@ export default function About() {
             <h1 id='about-text'>JoshWu.about</h1>
             <p id='connect'>Connect with me!</p>
             <div id='about-contact'>
-                <div class='contact-container'>
-                    <a href="https://www.linkedin.com/in/joshuatwudev/" target="_blank"><i class="devicon-linkedin-plain colored"></i></a>
+                <div className='contact-container'>
+                    <a href="https://www.linkedin.com/in/joshuatwudev/" target="_blank"><i className="devicon-linkedin-plain colored"></i></a>
                 </div>
-                <div class='contact-container'>
-                    <a href="https://github.com/jtw007" target="_blank"><i class="devicon-github-original-wordmark colored"></i></a>
+                <div className='contact-container'>
+                    <a href="https://github.com/jtw007" target="_blank"><i className="devicon-github-original-wordmark colored"></i></a>
                 </div>
             </div>
 
@@ -29,65 +29,65 @@ export default function About() {
 
                         <div id='box-container'>
                             {/* Box 1 */}
-                            <div class='about-skills'>
-                                <i class="devicon-react-original colored"></i>
-                                <div class='react-container'>
+                            <div className='about-skills'>
+                                <i className="devicon-react-original colored"></i>
+                                <div className='react-container'>
                                     <p>React</p>
                                 </div>
                             </div>
                             {/* box 2 */}
-                            <div class='about-skills'>
-                                <i class="devicon-javascript-plain colored"></i>
-                                <div class='react-container'>
+                            <div className='about-skills'>
+                                <i className="devicon-javascript-plain colored"></i>
+                                <div className='react-container'>
                                     <p>JavaScript</p>
                                 </div>
                             </div>
                             {/* box 3 */}
-                            <div class='about-skills'>
-                                <i class="devicon-html5-plain colored"></i>
-                                <div class='html-container'>
+                            <div className='about-skills'>
+                                <i className="devicon-html5-plain colored"></i>
+                                <div className='html-container'>
                                     <p>HTML5</p>
                                 </div>
                             </div>
                             {/* box 4 */}
-                            <div class='about-skills'>
-                                <i class="devicon-css3-plain colored"></i>
-                                <div class='css-container'>
+                            <div className='about-skills'>
+                                <i className="devicon-css3-plain colored"></i>
+                                <div className='css-container'>
                                     <p>CSS3</p>
                                 </div>
                             </div>
                             {/* box 5 */}
-                            <div class='about-skills'>
-                                <i class="devicon-express-original"></i>
-                                <div class='express-container'>
+                            <div className='about-skills'>
+                                <i className="devicon-express-original"></i>
+                                <div className='express-container'>
                                     <p>Express</p>
                                 </div>
                             </div>
                             {/* box 6 */}
-                            <div class='about-skills'>
-                                <i class="devicon-nodejs-plain colored"></i>
-                                <div class='node-container'>
+                            <div className='about-skills'>
+                                <i className="devicon-nodejs-plain colored"></i>
+                                <div className='node-container'>
                                     <p>Node.js</p>
                                 </div>
                             </div>
                             {/* box 7 */}
-                            <div class='about-skills'>
-                                <i class="devicon-bootstrap-plain colored"></i>
-                                <div class='node-container'>
+                            <div className='about-skills'>
+                                <i className="devicon-bootstrap-plain colored"></i>
+                                <div className='node-container'>
                                     <p>Bootstrap</p>
                                 </div>
                             </div>
                             {/* box 8 */}
-                            <div class='about-skills'>
-                                <i class="devicon-postgresql-plain colored"></i>
-                                <div class='node-container'>
+                            <div className='about-skills'>
+                                <i className="devicon-postgresql-plain colored"></i>
+                                <div className='node-container'>
                                     <p>PostgreSQL</p>
                                 </div>
                             </div>
                             {/* box 9 */}
-                            <div class='about-skills'>
-                                <i class="devicon-mongodb-plain colored"></i>
-                                <div class='node-container'>
+                            <div className='about-skills'>
+                                <i className="devicon-mongodb-plain colored"></i>
+                                <div className='node-container'>
                                     <p>MongoDB</p>
                                 </div>
                             </div>

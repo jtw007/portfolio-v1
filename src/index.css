@@ -24,7 +24,7 @@
 
 /*  ===== About Start ===== */
 #About {
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,16 +112,18 @@
 }
 
 #me-skills {
+  border: 1px solid gold;
   display: flex;
   flex-direction: column;
+  width: 75vw;
 }
 
   /*  about me container  */
 #about-me {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   display: flex;
   justify-content: start;
-  width: 75vw;
+  width: 65vw;
 }
 
 #me-text {
@@ -170,29 +172,45 @@
 
 /*  ===== About End ===== */
 
-/*  ===== Project start */
-.projects{
-  border: 1px solid red;
+/*  ===== Project start =====*/
+
+#projects {
+  border: 5px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 100vw;
   height: auto;
+  padding-top: 1%;
 }
 
-.project-title{
+.project-container {
+  border: 10px solid purple;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 85vw;
+  margin-top: auto;
+}
+
+.container{
+  border: 3px solid green;
+  display: flex;
+  flex-direction: row;
+}
+
+.container:hover {
+  opacity: 0.5;
+}
+
+.project-img {
+  max-width: 600px;
   border: 1px solid blue;
 }
 
-.project-container{
-  border: 1px solid purple;
-}
 
-.project-img{
-  max-width: 600px;
-}
-/*  ===== Project end */
+/*  ===== Project end =====*/
 
 
 
