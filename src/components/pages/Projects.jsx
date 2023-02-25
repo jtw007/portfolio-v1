@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 const Projects = () => {
-    
+    const [ style, setStyle ] = useState({display: 'none'})
     // const projectsArray = projectList?.map((project, idx) => {
     //     return(
     //         <div className='project-container' key={`project-${idx}`}>
@@ -27,18 +27,29 @@ const Projects = () => {
                 {projectList.map((project, idx) => {
                     return(
                         // <Link to={`/${project.siteURL}`}>
-                            <div id='container' key={`project-${idx}`}>
-                                <img className='project-img' src={project.img} alt='' />
-                                <div className='project-box'>
-                                    <div className="project-overlay">
-                                        <span className="project-name">
+                            <div 
+                                id='container' 
+                                key={`project-${idx}`}
+                                onMouseEnter={e => {
+                                    setStyle({display: 'block'})
+                                }}
+                                onMouseLeave={e => {
+                                    setStyle({display: 'none'})
+                                }} 
+                            >
+                                <div id='test-container'>
+                                    <img className='project-img' src={project.img} alt='' />
+                                    <div 
+                                        className="project-overlay">
+                                        <span className="project-name" style={style}>
                                             {project.title}
                                         </span>
-                                        <button className="projectbtn">
+                                        <button className="projectbtn" style={style}>
                                             See more
                                         </button>
                                     </div>
                                 </div>
+                                    
                             </div>
                         // </Link>
                     ) 
