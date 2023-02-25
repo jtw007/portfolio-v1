@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 const Projects = () => {
-
+    
     // const projectsArray = projectList?.map((project, idx) => {
     //     return(
     //         <div className='project-container' key={`project-${idx}`}>
@@ -27,7 +27,7 @@ const Projects = () => {
                 {projectList.map((project, idx) => {
                     return(
                         // <Link to={`/${project.siteURL}`}>
-                            <div className='container' key={`project-${idx}`}>
+                            <div id='container' key={`project-${idx}`}>
                                 <img className='project-img' src={project.img} alt='' />
                                 <div className='project-box'>
                                     <div className="project-overlay">
@@ -35,7 +35,7 @@ const Projects = () => {
                                             {project.title}
                                         </span>
                                         <button className="projectbtn">
-                                            Learn more
+                                            See more
                                         </button>
                                     </div>
                                 </div>

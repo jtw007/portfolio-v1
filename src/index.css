@@ -186,7 +186,7 @@
 }
 
 .project-container {
-  border: 10px solid purple;
+  /* border: 5px solid purple; */
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -194,14 +194,28 @@
   margin-top: auto;
 }
 
-.container{
+#container{
   border: 3px solid green;
   display: flex;
   flex-direction: row;
 }
 
-.container:hover {
+#container:hover {
   opacity: 0.5;
+}
+
+.project-box {
+  border: 5px solid teal;
+  display: flex;
+  justify-content: center;
+}
+
+.project-overlay {
+  border: 3px solid gold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* transform: translate(-25%, -25%); */
 }
 
 .project-img {
