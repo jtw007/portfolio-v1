@@ -6,7 +6,11 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 export default function NavBar() {
 
     return(
-        <Navbar className="d-flex mt-3" style={{ color: 'rgba(0, 0, 0)'}} expand="lg">
+        <Navbar 
+            expand="lg"
+            className="nav-bar d-flex mt-auto" 
+            style={{ color: 'rgba(0, 0, 0)' }} 
+        >
         <Container className="d-flex">
             <Navbar.Brand className="nav-text" style={{ color: 'rgba(50, 205, 50)'}}>JoshuaWu.dev</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ backgroundColor: 'rgba(50, 205, 50)'}}/>
