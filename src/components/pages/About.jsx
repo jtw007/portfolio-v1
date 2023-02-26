@@ -27,7 +27,7 @@ export default function About() {
                     <div id="about-me-skills">
                         <p id='stack'>Current Stack 📚</p>
 
-                        <div id='box-container'>
+                        <div id='skills-container'>
                             {/* Box 1 */}
                             <div className='about-skills'>
                                 <i className="devicon-react-original colored"></i>

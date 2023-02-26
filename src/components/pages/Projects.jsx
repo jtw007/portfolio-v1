@@ -26,32 +26,29 @@ const Projects = () => {
             <div className='project-container'>
                 {projectList.map((project, idx) => {
                     return(
-                        // <Link to={`/${project.siteURL}`}>
-                            <div 
-                                id='container' 
-                                key={`project-${idx}`}
-                                onMouseEnter={e => {
-                                    setStyle({display: 'block'})
-                                }}
-                                onMouseLeave={e => {
-                                    setStyle({display: 'none'})
-                                }} 
-                            >
-                                <div id='test-container'>
-                                    <img className='project-img' src={project.img} alt='' />
-                                    <div 
-                                        className="project-overlay">
-                                        <span className="project-name" style={style}>
-                                            {project.title}
-                                        </span>
-                                        <button className="projectbtn" style={style}>
-                                            See more
-                                        </button>
-                                    </div>
+                        <div 
+                            id='container' 
+                            key={`project-${idx}`}
+                            onMouseEnter={e => {
+                                setStyle({display: 'block'})
+                            }}
+                            onMouseLeave={e => {
+                                setStyle({display: 'none'})
+                            }} 
+                        >
+                            <div id='test-container'>
+                                <img className='project-img' src={project.img} alt='' />
+                                <div 
+                                    className="project-overlay">
+                                    <span className="project-name" style={style}>
+                                        {project.name}
+                                    </span>
+                                    <button className="projectbtn" style={style}>
+                                        See more
+                                    </button>
                                 </div>
-                                    
                             </div>
-                        // </Link>
+                        </div>
                     ) 
                 })}
             </div>

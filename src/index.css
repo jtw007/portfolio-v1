@@ -49,18 +49,6 @@
 
 #connect {
   margin-bottom: 2px;
-  /* display: flex;
-  width: 25%;
-  background: 
-    linear-gradient(
-      to left, 
-      rgba(9,121,48,1) 0%,
-      rgba(0,255,132,1) 100%
-    )
-    bottom
-    no-repeat;
-  background-size: 25% 5px;
-  justify-content: center; */
 }
 
   /*  contact start */
@@ -68,24 +56,37 @@
   /* border: 1px solid red; */
   display: flex;
   justify-content: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 12%;
   flex-direction: row;
 }
 
 .contact-container {
-  /* border: 1px solid red; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  font-size: 30px;
-  width: 25%;
+  /* border: 1px solid blue; */
+  font-size: 40px;
+  width: 15%;
 }
 
 .contact-container > a {
   list-style-type: none;
   text-decoration: none;
+}
+
+.contact-container:hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.contact-container:hover, .contact-container:focus, .contact-container:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
   /*  contact end  */
@@ -96,6 +97,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  width: 80%;
 }
 
 #img-container {
@@ -154,12 +156,12 @@
   background-size: 9% 5px;
 }
 
-#box-container {
+#skills-container {
   /* border: 1px solid red; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 95%;
+  width: 85%;
 }
 
  .about-skills {
@@ -175,7 +177,7 @@
 /*  ===== Project start =====*/
 
 #projects {
-  border: 5px solid red;
+  /* border: 5px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -195,7 +197,7 @@
 }
 
 #container{
-  border: 3px solid black;
+  /* border: 3px solid black; */
   display: flex;
   flex-direction: row;
 }
@@ -206,6 +208,7 @@
 
 #test-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -216,14 +219,11 @@
 }
 
 .project-overlay {
-  border: 3px solid gold;
+  /* border: 3px solid gold; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transform: translateX(-100%);
-  transform: translateY(-50%);
-  transform: translateZ(-5);
 }
 
 
