@@ -3,16 +3,16 @@
 * {
   margin: 0;
   padding: 0;
+  /* background-color: rgb(25, 25, 25); */
 }
 
 .body {
   font-family: 'Indie Flower', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
-  /* background-color: rgb(25, 25, 25); */
   color: rgb(21, 225, 99);
   flex-direction: column;
+  font-weight: bold;
 }
 
 /*  =====navbar start===== */
@@ -60,38 +60,33 @@
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  width: 12%;
-  flex-direction: row;
-}
-
-.contact-container {
-  /* border: 1px solid blue; */
-  font-size: 40px;
   width: 15%;
+  flex-direction: row;
+  font-size: 40px;
 }
 
-.contact-container > a {
+#about-contact > a {
   list-style-type: none;
   text-decoration: none;
 }
 
-.contact-container:hover {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: transparent;
 }
 
-.contact-container:hover, .contact-container:focus, .contact-container:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+a i {
+  transition: all 0.3s linear;
 }
 
+a:hover i {
+  transform: scale(1.5);
+}
   /*  contact end  */
 
 #about-body {
@@ -117,22 +112,24 @@
 }
 
 #me-skills {
-  border: 1px solid gold;
+  /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;
-  width: 75vw;
+  width: 55vw;
+  margin-top: 3%;
 }
 
   /*  about me container  */
 #about-me {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   justify-content: start;
-  width: 65vw;
+  width: 55vw;
 }
 
 #me-text {
   font-size: large;
+  font-weight: bold;
 }
 
   /* stack container */
@@ -143,8 +140,8 @@
 }
 
 #stack {
-  /* border: 1px solid red; */
-  width: 82%;
+  /* border: 1px solid blue; */
+  width: 55vw;
   display: flex;
   justify-content: center;
   font-size: large;
@@ -164,7 +161,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 85%;
+  width: 55vw;
 }
 
  .about-skills {
@@ -207,7 +204,7 @@
 }
 
 #container:hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 #test-container {
@@ -228,8 +225,66 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: -28%;
 }
 
+.project-name {
+  color: black;
+  font-size: large;
+}
+
+.projectbtn {
+  /* border-radius: 35%; */
+  background-color: transparent;
+  border: transparent;
+  font-size: medium;
+  font-weight: bold;
+}
+
+/* ---project hover effect start---- */
+.projectbtn {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.projectbtn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2098D1;
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.projectbtn:hover, .projectbtn:focus, .projectbtn:active {
+  color: white;
+}
+
+.projectbtn:hover:before, .projectbtn:focus:before, .projectbtn:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
+  /* ---project button hover effect end---- */
 
 /*  ===== Project end =====*/
 

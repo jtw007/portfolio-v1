@@ -5,12 +5,12 @@ export default function About() {
             <h1 id='about-text'>JoshWu.about</h1>
             <p id='connect'>Connect with me!</p>
             <div id='about-contact'>
-                <div className='contact-container'>
-                    <a href="https://www.linkedin.com/in/joshuatwudev/" target="_blank"><i className="devicon-linkedin-plain colored"></i></a>
-                </div>
-                <div className='contact-container'>
-                    <a href="https://github.com/jtw007" target="_blank"><i className="devicon-github-original-wordmark colored"></i></a>
-                </div>
+                <a className='link' href="https://www.linkedin.com/in/joshuatwudev/" target="_blank" rel="noopener noreferrer">
+                    <i className="icon devicon-linkedin-plain colored"></i>
+                </a>
+                <a className='link' href="https://github.com/jtw007" target="_blank" rel="noopener noreferrer">
+                    <i className="icon devicon-github-original"></i>
+                </a>
             </div>
 
             <div id='about-body'>
