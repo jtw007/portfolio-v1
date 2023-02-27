@@ -6,7 +6,6 @@ import Projects from "./Projects";
 const Home = () => {
     return ( 
         <div className='body'>
-            <NavBar />
             <About /> 
             <Projects /> 
         </div>

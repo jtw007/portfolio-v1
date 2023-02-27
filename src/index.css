@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Indie Flower', cursive;
+  color: rgb(21, 225, 99);
   /* background-color: rgb(25, 25, 25); */
 }
 
@@ -53,7 +59,6 @@
   align-items: center;
   flex-direction: column;
   width: 100vw;
-  margin-top: 5%;
 }
 
 #about-text {

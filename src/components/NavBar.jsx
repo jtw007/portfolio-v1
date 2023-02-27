@@ -18,7 +18,7 @@ export default function NavBar() {
 
             
             <Nav className="nav-links me-auto d-flex justify-content-center justify-content-around w-100">
-                <Nav.Link style={{ color: 'rgba(50, 205, 50)', fontWeight: 'bold' }} href="#" onClick>Home</Nav.Link>
+                <Nav.Link style={{ color: 'rgba(50, 205, 50)', fontWeight: 'bold' }} href="/" onClick>Home</Nav.Link>
                 <Nav.Link style={{ color: 'rgba(50, 205, 50)', fontWeight: 'bold' }} href="#">About</Nav.Link>
                 <Nav.Link style={{ color: 'rgba(50, 205, 50)', fontWeight: 'bold' }} href="#">Projects</Nav.Link>
                 <NavDropdown 

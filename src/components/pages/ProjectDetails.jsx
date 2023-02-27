@@ -14,8 +14,8 @@ const ProjectDetails = () => {
     }
 
     return ( 
-        <div className=''>
-            <header className=''>
+        <div className='py-16'>
+            <header className='py-10 px-14 md:px-7 bg-split-grey-top '>
                 <div className=''>
                     <img 
                         src={project.img}
@@ -23,7 +23,7 @@ const ProjectDetails = () => {
                         alt='project image'
                     />
                     <div className=''>
-                        <h1 className=''>
+                        <h1>
                             {project.title}
                         </h1>
                     </div>

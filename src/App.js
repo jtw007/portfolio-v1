@@ -9,6 +9,7 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './index.css'
+import './index2.css'
 
 // components/pages import
 import Home from './components/pages/Home';
@@ -17,7 +18,7 @@ import ProjectDetails from './components/pages/ProjectDetails';
 
 function App() {
   return (
-    <div className='app'>  
+    <div className='body'>  
       <Router>
           <NavBar /> 
         <div className='routes'>
