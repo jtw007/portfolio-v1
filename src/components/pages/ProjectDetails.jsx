@@ -14,9 +14,20 @@ const ProjectDetails = () => {
     }
 
     return ( 
-        <div className='py-16'>
-            <header>
-                
+        <div className=''>
+            <header className=''>
+                <div className=''>
+                    <img 
+                        src={project.img}
+                        className='project-img'
+                        alt='project image'
+                    />
+                    <div className=''>
+                        <h1 className=''>
+                            {project.title}
+                        </h1>
+                    </div>
+                </div>
             </header>
         </div>
      );

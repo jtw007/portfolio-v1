@@ -8,6 +8,7 @@ export const projectList = [
         slug: 'mcfacebook',
         img: Project3,
         name: 'McFacebook',
+        subheader:`2010's FaceBook themed blog app`,
         desc: `A MERN full-stack application blog app built to resemble 2010's FaceBook themed.`,
         stacks: [
             "HTML",
@@ -28,7 +29,8 @@ export const projectList = [
         slug: 'cocktailapi',
         img: Project2,
         name: 'CocktailAPI',
-        desc: 'Cocktail recipe app using an 3rd party API',
+        subheader:`Cocktail recipe app that pulls from API Ninja's cocktail API`,
+        desc: 'Full-stack application app using an 3rd party API that displays cocktail recipes.',
         stacks: [
             "HTML",
             "CSS",

@@ -46,13 +46,7 @@ const Projects = () => {
                                         <span className="project-span" style={style}>
                                             Description: {project.desc}
                                         </span>
-                                        <button 
-                                        className="projectbtn" 
-                                        style={style}
-                                        // onClick={navigate(`/${project.slug}`)}
-                                        >
-                                            See more
-                                        </button>
+                                        <button className="projectbtn" style={style}><a href='/:slug'>See more</a></button>
                                     </div>
                                 </div>
                             </div>

@@ -2,7 +2,6 @@ import {
   Routes,
   Route,
   BrowserRouter as Router,
-  Link 
 } from 'react-router-dom'
 
 
@@ -11,29 +10,25 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import './index.css'
 
-// components import
+// components/pages import
+import Home from './components/pages/Home';
 import NavBar from './components/NavBar.jsx'
-import About from './components/pages/About';
-import Projects from './components/pages/Projects';
 import ProjectDetails from './components/pages/ProjectDetails';
 
 function App() {
   return (
-    <div className='body'>
+    <div className='app'>  
       <Router>
-        <header className=''>
-          <NavBar />
-        </header>
-
-          <About />
-
-          <Projects />
-
+          <NavBar /> 
+        <div className='routes'>
           <Routes>
-            {/* <Route path='/' /> */}
+            <Route path='/' element={ <Home /> } />
             <Route path='/:slug' element={ <ProjectDetails /> }/>
           </Routes>
-      </Router>
+        </div>
+      </Router> 
+      
+      
     </div>
   );
 }
