@@ -1,12 +1,15 @@
 import { projectList } from "../../data/projectList";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useState } from 'react';
 
 const Projects = () => {
     const [ style, setStyle ] = useState({display: 'none'})
+    
     const linkStyle = {
         textDecoration: 'none',
     }
+
+    const navigate = useNavigate()
     // const projectsArray = projectList?.map((project, idx) => {
     //     return(
     //         <div className='project-container' key={`project-${idx}`}>
@@ -43,7 +46,11 @@ const Projects = () => {
                                         <span className="project-span" style={style}>
                                             Description: {project.desc}
                                         </span>
-                                        <button className="projectbtn" style={style}>
+                                        <button 
+                                        className="projectbtn" 
+                                        style={style}
+                                        // onClick={navigate(`/${project.slug}`)}
+                                        >
                                             See more
                                         </button>
                                     </div>

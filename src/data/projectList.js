@@ -8,7 +8,7 @@ export const projectList = [
         slug: 'mcfacebook',
         img: Project3,
         name: 'McFacebook',
-        desc: `A 2010's FaceBook themed blog app`,
+        desc: `A MERN full-stack application blog app built to resemble 2010's FaceBook themed.`,
         stacks: [
             "HTML",
             "CSS",
