@@ -15,11 +15,11 @@
   font-weight: bold;
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 110vh;
   background-color: black;
 }
 
-/*  =====navbar start===== */
+/*  =====NAVBAR start===== */
 @keyframes slideInLeft {
   0% {
     transform: translateX(-100%);
@@ -43,7 +43,7 @@
   font-weight: bold;
 }
 
-/*  =====navbar end===== */
+/*  =====NAVBAR end===== */
 
 /*  ===== About Start ===== */
 #About {
@@ -206,7 +206,6 @@ a:hover i {
   align-items: center;
   flex-direction: column;
   width: 100vw;
-  height: auto;
   margin-top: 5%;
   padding-top: 1%;
 }
@@ -217,7 +216,7 @@ a:hover i {
   flex-direction: row;
   justify-content: space-evenly;
   width: 85vw;
-  margin-top: auto;
+  margin-top: 2%;
 }
 
 #container{
@@ -251,8 +250,8 @@ a:hover i {
   margin-top: -28%;
 }
 
-.project-name {
-  color: black;
+.project-span {
+  color: teal;
   font-size: large;
 }
 
@@ -262,6 +261,7 @@ a:hover i {
   border: transparent;
   font-size: medium;
   font-weight: bold;
+  color: teal;
 }
 
 /* ---project hover effect start---- */
@@ -286,7 +286,7 @@ a:hover i {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: #1d88ba;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;

@@ -15,6 +15,7 @@ import './index.css'
 import NavBar from './components/NavBar.jsx'
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
+import ProjectDetails from './components/pages/ProjectDetails';
 
 function App() {
   return (
@@ -27,6 +28,11 @@ function App() {
           <About />
 
           <Projects />
+
+          <Routes>
+            {/* <Route path='/' /> */}
+            <Route path='/:slug' element={ <ProjectDetails /> }/>
+          </Routes>
       </Router>
     </div>
   );

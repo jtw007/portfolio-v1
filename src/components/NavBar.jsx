@@ -23,15 +23,20 @@ export default function NavBar() {
                 <Nav.Link style={{ color: 'rgba(50, 205, 50)', fontWeight: 'bold' }} href="#">Projects</Nav.Link>
                 <NavDropdown 
                     title={
-                        <span className='nav-dropdown' style={{ color: 'rgba(50, 205, 50)', fontWeight: 'bold' }}>Contact</span>
+                        <span 
+                            className='nav-dropdown' 
+                            style={{ color: 'rgba(50, 205, 50)', fontWeight: 'bold' }}
+                        >
+                            Contact
+                        </span>
                     }
-                    id="basic-nav-dropdown" 
+                    id="nav-dropdown basic-nav-dropdown" 
                     // style={{ backgroundColor: 'rgba(25,25,25)' }}
                 >
-                    <NavDropdown.Item href="https://www.linkedin.com/in/joshuatwudev/" target="_blank" rel="noopener noreferrer" style={{ color: 'rgba(50, 205, 50)', fontWeight: 'bold' }} >
+                    <NavDropdown.Item id='nav-item' href="https://www.linkedin.com/in/joshuatwudev/" target="_blank" rel="noopener noreferrer" style={{ color: 'rgba(50, 205, 50)', fontWeight: 'bold' }} >
                         LinkedIn
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="https://github.com/jtw007" target="_blank" rel="noopener noreferrer" style={{ color: 'rgba(50, 205, 50)', fontWeight: 'bold' }}>
+                    <NavDropdown.Item id='nav-item' href="https://github.com/jtw007" target="_blank" rel="noopener noreferrer" style={{ color: 'rgba(50, 205, 50)', fontWeight: 'bold' }}>
                         Github
                     </NavDropdown.Item>
                 </NavDropdown>
