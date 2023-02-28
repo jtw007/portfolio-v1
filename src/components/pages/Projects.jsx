@@ -1,5 +1,5 @@
 import { projectList } from "../../data/projectList";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 const Projects = () => {
@@ -8,8 +8,6 @@ const Projects = () => {
     const linkStyle = {
         textDecoration: 'none',
     }
-
-    const navigate = useNavigate()
     // const projectsArray = projectList?.map((project, idx) => {
     //     return(
     //         <div className='project-container' key={`project-${idx}`}>
@@ -25,10 +23,9 @@ const Projects = () => {
             <div className='project-container'>
                 {projectList.map((project, idx) => {
                     return(
-                        <Link to={`/${project.slug}`} style={ linkStyle }>
+                        <Link key={`project-${idx}`} to={`/${project.slug}`} style={ linkStyle }>
                             <div 
                                 id='container' 
-                                key={`project-${idx}`}
                                 onMouseEnter={e => {
                                     setStyle({display: 'block'})
                                 }}
@@ -43,10 +40,7 @@ const Projects = () => {
                                         <span className="project-span" style={style}>
                                             {project.name}
                                         </span>
-                                        <span className="project-span" style={style}>
-                                            Description: {project.desc}
-                                        </span>
-                                        <button className="projectbtn" style={style}><a href='/:slug'>See more</a></button>
+                                        <button className="projectbtn" style={style}>See more</button>
                                     </div>
                                 </div>
                             </div>

@@ -61,10 +61,9 @@ const ProjectDetails = () => {
                     Built with
                 </h3>
                 <ul className='details-ul'>
-                    <li className='details-li'>
+                    <li className='details-li' key={`project`}>
                         <span className='details-stacks'>
-                            {/* maybe try splice below */}
-                            {project.stacks} 
+                            {project.stacks.toString().split(',').join(', ')} 
                         </span>
                     </li>
                 </ul>

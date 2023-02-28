@@ -8,7 +8,7 @@ html {
   margin: 0;
   padding: 0;
   font-family: 'Indie Flower', cursive;
-  color: rgb(21, 225, 99);
+  /* color: rgb(21, 225, 99); */
   /* background-color: rgb(25, 25, 25); */
 }
 
@@ -16,13 +16,13 @@ html {
   font-family: 'Indie Flower', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: rgb(21, 225, 99);
+  /* color: rgb(21, 225, 99); */
   flex-direction: column;
   font-weight: bold;
   margin: 0;
   padding: 0;
   height: 110vh;
-  background-color: black;
+  /* background-color: black; */
 }
 
 /*  =====NAVBAR start===== */
@@ -70,11 +70,11 @@ html {
   display: flex;
   width: 25%;
   background: 
-    linear-gradient(
+    /* linear-gradient(
       to left, 
       rgba(9,121,48,1) 0%,
       rgba(0,255,132,1) 100%
-    )
+    ) */
     bottom
     no-repeat;
   background-size:65% 5px;
@@ -179,11 +179,11 @@ a:hover i {
   justify-content: center;
   font-size: large;
   background: 
-    linear-gradient(
+    /* linear-gradient(
       to left, 
       rgba(9,121,48,1) 0%,
       rgba(0,255,132,1) 100%
-    )
+    ) */
     bottom
     no-repeat;
   background-size: 9% 5px;
