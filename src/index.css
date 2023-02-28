@@ -43,10 +43,15 @@ html {
   animation-delay: 0s;
   animation-iteration-count: 1;
   animation-name: slideInLeft;
+  height: 5rem;
 }
 
 .nav-text {
-  font-weight: bold;
+  font-size: 2rem !important;
+}
+
+.nav-link {
+  font-size: 1.5rem !important;
 }
 
 /*  =====NAVBAR end===== */

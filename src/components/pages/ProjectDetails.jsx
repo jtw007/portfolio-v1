@@ -48,7 +48,7 @@ const ProjectDetails = () => {
                                     Github Repo
                                 </button>
                             </div>
-                            
+
                         </div>
 
                     </div>
@@ -56,13 +56,13 @@ const ProjectDetails = () => {
                 </div>
             </header>
             {/* header end */}
-            <div className=''>
-                <h3>
+            <div className='details-bottom'>
+                <h3 className='details-built'>
                     Built with
                 </h3>
-                <ul className=''>
-                    <li className=''>
-                        <span className=''>
+                <ul className='details-ul'>
+                    <li className='details-li'>
+                        <span className='details-stacks'>
                             {/* maybe try splice below */}
                             {project.stacks} 
                         </span>
