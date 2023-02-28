@@ -1,0 +1,86 @@
+/*  ====Project details START==== */
+.details {
+    /* border: 1px solid red; */
+    margin-top: 2rem;
+    padding: 16px 0 16px 0;
+}
+
+    /* ----details header start---- */
+
+.details-header {
+    /* border: 1px solid purple; */
+    padding: 10px 14px 10px 14px;
+}
+
+.details-container {
+    /* border: 1px solid goldenrod; */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 72rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project-img {
+    margin-left: 1rem;
+}
+
+.project-details {
+    /* border: 1px solid lime; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.details-name {
+    font-weight: bold;
+    font-size: 3.75rem;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    text-align: center;
+}
+
+.details-header-container {
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: center;
+}
+
+.details-subheader {
+    /* border: 1px dashed gold; */
+    display: block;
+    text-align: center;
+}
+
+.detailsbtn-container {
+    /* border: 1px solid gold; */
+    gap: 0.75rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.detailsbtn {
+    border-radius: 15px; 
+    padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+    line-height: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 7px #ffffff;
+    background-color: blue;
+}
+
+.detailsbtn:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px)
+}
+
+.detailsbtn:hover {
+    background-color: gold;
+}
+    /* ----details header end---- */
+/*  ====Project details END==== */

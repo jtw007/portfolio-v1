@@ -4,18 +4,19 @@ import Project2 from './projectImg/project2.png'
 
 export const projectList = [
     {
-        title: 'Project 3',
+        title: 'McFaceBook',
         slug: 'mcfacebook',
         img: Project3,
         name: 'McFacebook',
-        subheader:`2010's FaceBook themed blog app`,
-        desc: `A MERN full-stack application blog app built to resemble 2010's FaceBook themed.`,
+        subheader:`A 2010's FaceBook themed blog app`,
+        desc: `McFaceBook is a MERN stack app built by a team of four developers. Users can create a new account, sign in, create, edit, and delete posts.`,
         stacks: [
             "HTML",
             "CSS",
+            "MongoDB",
+            "Express",
             "React",
             "NodeJs",
-            "MongoDB",
             "Bootstrap",
             'React-Bootstrap',
             'MDBootstrap'

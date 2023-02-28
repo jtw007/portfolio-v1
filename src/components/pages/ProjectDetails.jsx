@@ -14,21 +14,64 @@ const ProjectDetails = () => {
     }
 
     return ( 
-        <div className='py-16'>
-            <header className='py-10 px-14 md:px-7 bg-split-grey-top '>
-                <div className=''>
+        <div className='details'>
+            {/* header start */}
+            <header className='details-header'>
+                <div className='details-container'>
                     <img 
                         src={project.img}
                         className='project-img'
                         alt='project image'
                     />
-                    <div className=''>
-                        <h1>
-                            {project.title}
+                    <div className='project-details'>
+                        <h1 className='details-name'>
+                            {project.name}
                         </h1>
+
+                        <div className='details-header-container'>
+                            <h2 className="details-subheader">
+                                {project.subheader}
+                            </h2>
+
+                            <div className="detailsbtn-container">
+                                <button 
+                                    className='detailsbtn'
+                                    onClick={() => openSite()}
+                                >
+                                    Deployed Site
+                                </button>
+
+                                <button 
+                                    className='detailsbtn'
+                                    onClick={() => openGithub()}
+                                >
+                                    Github Repo
+                                </button>
+                            </div>
+                            
+                        </div>
+
                     </div>
+
                 </div>
             </header>
+            {/* header end */}
+            <div className=''>
+                <h3>
+                    Built with
+                </h3>
+                <ul className=''>
+                    <li className=''>
+                        <span className=''>
+                            {/* maybe try splice below */}
+                            {project.stacks} 
+                        </span>
+                    </li>
+                </ul>
+                <p className='details-desc'>
+                    {project.desc}
+                </p>
+            </div>
         </div>
      );
 }
