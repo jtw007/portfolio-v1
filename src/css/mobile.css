@@ -2,6 +2,7 @@
 
     /* ==About start== */
     #About {
+        /* border: 1px solid red; */
         padding: 20px;
     }
     
@@ -56,7 +57,7 @@
     }
 
     #skills-container {
-        border: 1px solid black;
+        /* border: 1px solid black; */
         display: flex;
         flex-wrap: wrap;
         flex: 1;
@@ -77,4 +78,23 @@
     }
 
     /* ==About end== */
+
+    /*  ==PROJECT START== */
+    #projects {
+        border: 1px solid red;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-container {
+        border: 1px solid blue;
+        display: flex;
+        flex-direction: column;
+    }
+    /*  ==PROJECT END== */
+
+    /* ==PROJECT DETAILS START== */
+
+    /* ==PROJECT DETAILS END== */
 }
