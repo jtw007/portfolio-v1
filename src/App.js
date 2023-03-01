@@ -8,9 +8,10 @@ import {
 // css file import
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
-import './index.css'
-import './index2.css'
-import './mobile.css'
+import './css/index.css'
+import './css/index2.css'
+import './css/mobile.css'
+
 
 // components/pages import
 import Home from './components/pages/Home';
@@ -20,7 +21,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className='body'>  
+    <div id='App'>  
       <Router>
           <NavBar /> 
         <div className='routes'>

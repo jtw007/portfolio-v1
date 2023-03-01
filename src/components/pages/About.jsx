@@ -1,7 +1,7 @@
 export default function About() {
     
     return(
-        <div id='About' className='text slide'>
+        <div id='About' className=''>
             <h1 id='about-text'>JoshWu.about</h1>
             <p id='connect'>Connect with me!</p>
             <div id='about-contact'>
@@ -21,7 +21,7 @@ export default function About() {
                 <div id='me-skills'>
 
                     <div id='about-me'>
-                        <p id='me-text'>Hello there! I am a front-end software developer (and a sneaker enthusiast) from Southern California, who enjoys cooking and gaming in my off time. I value sincerity and empathy and I take pride in having a resourceful and straightforward approach when problem solving. My core values of sincerity and empathy guide me to take a resourceful and straightforward approach when problem solving, and I thrive in collaborative environments that encourage open communication and diverse perspectives. In the long run, I aspire to drive meaningful change and inspire others to reach their full potential</p>
+                        <p id='me-text'>Hello there! I am a front-end software developer (and a sneaker enthusiast) from Southern California, who enjoys cooking and gaming in my off time. I value sincerity and empathy and I take pride in having a resourceful and straightforward approach when problem solving. My core values of sincerity and empathy guide me to take a resourceful and straightforward approach when problem solving, and I thrive in collaborative environments that encourage open communication and diverse perspectives. In the long run, I aspire to drive meaningful change and inspire others to reach their full potential.</p>
                     </div>
 
                     <div id="about-me-skills">
