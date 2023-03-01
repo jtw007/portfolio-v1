@@ -8,24 +8,25 @@ export default function NavBar() {
     return(
         <Navbar 
             expand="lg"
-            className="nav-bar d-flex mt-auto" 
-            style={{ color: 'rgba(0, 0, 0)' }} 
+            className="nav-bar d-flex mt-auto fixed-top" 
+            style={{ backgroundColor: 'rgba(0, 0, 0)' }} 
         >
             <Container className="d-flex">
-                <Navbar.Brand className="nav-text " style={{ color: 'rgba(50, 205, 50)'}}>JoshuaWu.dev</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" style={{ backgroundColor: 'rgba(50, 205, 50)'}}/>
+                <Navbar.Brand className="nav-text" style={{ color: 'rgba(207, 207, 207)'}} href='/'>JoshuaWu.Dev</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" 
+                style={{ opacity: '0.5', backgroundColor: 'rgba(16,161,190,1)'}} />
                 <Navbar.Collapse id="basic-navbar-nav">
 
                 
                 <Nav className="nav-links me-auto d-flex justify-content-center justify-content-around w-100">
-                    <Nav.Link className='nav-link' style={{ color: 'rgba(50, 205, 50)' }} href="/" onClick>Home</Nav.Link>
-                    <Nav.Link className='nav-link' style={{ color: 'rgba(50, 205, 50)' }} href="#">About</Nav.Link>
-                    <Nav.Link className='nav-link' style={{ color: 'rgba(50, 205, 50)' }} href="#">Projects</Nav.Link>
+                    <Nav.Link className='nav-link' style={{ color: 'rgba(207, 207, 207)' }} href="/" onClick>Home</Nav.Link>
+                    <Nav.Link className='nav-link' style={{ color: 'rgba(207, 207, 207)' }} href="#">About</Nav.Link>
+                    <Nav.Link className='nav-link' style={{ color: 'rgba(207, 207, 207)' }} href="#">Projects</Nav.Link>
                     <NavDropdown 
                         title={
                             <span 
                                 className='Dropdown' 
-                                style={{ color: 'rgba(50, 205, 50)', fontWeight: 'bold' }}
+                                style={{ color: 'rgba(207, 207, 207)', fontWeight: 'bold' }}
                             >
                                 Contact
                             </span>
@@ -33,10 +34,21 @@ export default function NavBar() {
                         id="nav-dropdown basic-nav-dropdown" 
                         // style={{ backgroundColor: 'rgba(25,25,25)' }}
                     >
-                        <NavDropdown.Item id='nav-item' href="https://www.linkedin.com/in/joshuatwudev/" target="_blank" rel="noopener noreferrer" style={{ color: 'rgba(50, 205, 50)', fontWeight: 'bold' }} >
+                        <NavDropdown.Item 
+                            id='nav-item' 
+                            href="https://www.linkedin.com/in/joshuatwudev/" target="_blank" 
+                            rel="noopener noreferrer" 
+                            style={{ color: 'rgba(207, 207, 207)', fontWeight: 'bold' }} 
+                        >
                             LinkedIn
                         </NavDropdown.Item>
-                        <NavDropdown.Item id='nav-item' href="https://github.com/jtw007" target="_blank" rel="noopener noreferrer" style={{ color: 'rgba(50, 205, 50)', fontWeight: 'bold' }}>
+                        <NavDropdown.Item 
+                        id='nav-item' 
+                        href="https://github.com/jtw007" 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        style={{ color: 'rgba(207, 207, 207)', fontWeight: 'bold' }}
+                        >
                             Github
                         </NavDropdown.Item>
                     </NavDropdown>

@@ -1,8 +1,14 @@
 @media screen and (max-width: 768px) {
 
+    body {
+        background-size: auto 200%;
+      }
+      
+
     /* ==About start== */
     #About {
         /* border: 1px solid red; */
+        margin-top: 15%;
         padding: 20px;
     }
     
@@ -25,6 +31,10 @@
         display: flex;
         align-items: center;
         margin: 3% 0 3% 0;
+    }
+
+    #img-container > img {
+        max-width: 55vw;
     }
 
     #me-skills {

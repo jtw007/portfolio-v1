@@ -2,7 +2,7 @@ export default function About() {
     
     return(
         <div id='About' className=''>
-            <h1 id='about-text'>JoshWu.about</h1>
+            <h1 id='about-text'>JoshWu.About</h1>
             <p id='connect'>Connect with me!</p>
             <div id='about-contact'>
                 <a className='link' href="https://www.linkedin.com/in/joshuatwudev/" target="_blank" rel="noopener noreferrer">
@@ -15,7 +15,7 @@ export default function About() {
 
             <div id='about-body'>
                 <div id='img-container'>
-                    <img src='../../../assets/sampleProfile.jpeg' alt='photo of Josh'/>
+                    <img src='../../../assets/profilePicture1.png' alt='photo of Josh'/>
                 </div>
 
                 <div id='me-skills'>
