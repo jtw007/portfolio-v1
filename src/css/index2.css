@@ -14,10 +14,12 @@
   .project-container {
     /* border: 5px solid purple; */
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 85vw;
+    width: 100vw;
+    height: 55vh;
     margin-top: 2%;
+    /* margin-bottom: 35%; */
   }
   
   #container {
@@ -31,6 +33,8 @@
   }
   
   #test-container {
+    /* border: 1px solid red; */
+    width: 50vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +43,8 @@
   
   .project-img {
     /* border: 1px solid blue; */
-    max-width: 600px;
+    max-width: 500px;
+    margin-bottom: 35%;
   }
   
   .project-overlay {
@@ -48,11 +53,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: -28%;
+    margin-top: -60%;
   }
   
   .project-span {
-    color: teal;
+    color: rgb(0, 5, 5);
     font-size: large;
   }
   
@@ -62,7 +67,7 @@
     border: transparent;
     font-size: medium;
     font-weight: bold;
-    color: teal;
+    color: rgb(0, 0, 0);
   }
   
   /* ---project hover effect start---- */
@@ -116,6 +121,7 @@
 /*  ====Project details START==== */
 .details {
     /* border: 1px solid red; */
+    margin-top: 5%;
     padding: 4rem 0 4rem 0;
 }
 

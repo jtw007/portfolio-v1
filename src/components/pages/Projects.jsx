@@ -35,8 +35,7 @@ const Projects = () => {
                             >
                                 <div id='test-container'>
                                     <img className='project-img' src={project.img} alt='' />
-                                    <div 
-                                        className="project-overlay">
+                                    <div className="project-overlay">
                                         <span className="project-span" style={style}>
                                             {project.name}
                                         </span>
