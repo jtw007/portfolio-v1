@@ -148,17 +148,16 @@
         margin: auto 0 auto 0;
     }
 
-    .project-img {
-        /* margin-left: 0; */
-        margin-bottom: 35%;
-    }
-
     .project-details {
         /* border: 1px solid gold; */
         margin-top: 0;
         display: flex;
         align-items: center;
         gap: 0;
+    }
+
+    .project-img {
+        margin: 5% 0 15% 0;
     }
 
     .detailsbtn {
