@@ -19,6 +19,8 @@ import NavBar from './components/NavBar.jsx'
 import ProjectDetails from './components/pages/ProjectDetails';
 import Footer from './components/Footer'
 
+import resume from './Resume.pdf'
+
 function App() {
   return (
     <div id='App'>  

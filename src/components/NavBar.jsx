@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import resume from '../App'
 
 export default function NavBar() {
 
@@ -20,8 +21,9 @@ export default function NavBar() {
                 
                 <Nav className="nav-links me-auto d-flex justify-content-center justify-content-around w-100">
                     <Nav.Link className='nav-link' style={{ color: 'rgba(207, 207, 207)' }} href="/" onClick>Home</Nav.Link>
-                    <Nav.Link className='nav-link' style={{ color: 'rgba(207, 207, 207)' }} href="#">About</Nav.Link>
-                    <Nav.Link className='nav-link' style={{ color: 'rgba(207, 207, 207)' }} href="#">Projects</Nav.Link>
+                    <Nav.Link className='nav-link' style={{ color: 'rgba(207, 207, 207)' }} href='https://www.canva.com/design/DAFX9Tekz9g/8Hv-9i8JFfeaj5f01NNxwg/view?utm_content=DAFX9Tekz9g&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink' target="_blank" rel="noreferrer">Resume</Nav.Link>
+                    {/* <Nav.Link className='nav-link' style={{ color: 'rgba(207, 207, 207)' }} href="#">About</Nav.Link>
+                    <Nav.Link className='nav-link' style={{ color: 'rgba(207, 207, 207)' }} href="#">Projects</Nav.Link> */}
                     <NavDropdown 
                         title={
                             <span 
