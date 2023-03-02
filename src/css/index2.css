@@ -1,7 +1,7 @@
 /*  ===== Project start =====*/
 
 #projects {
-    /* border: 5px solid red; */
+    border: 5px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,111 +9,93 @@
     width: 100vw;
     margin-top: 5%;
     padding-top: 1%;
-  }
+}
   
-  .project-container {
-    /* border: 5px solid purple; */
+.project-container {
+    border: 3px solid purple;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100vw;
-    height: 55vh;
-    margin-top: 2%;
-    /* margin-bottom: 35%; */
-  }
-  
-  #container {
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    margin: 5rem auto 5rem auto;
+    /* max-width: 72rem; */
+    gap: 4rem;
+}
+
+#container {
     /* border: 3px solid black; */
-    display: flex;
-    flex-direction: row;
-  }
-  
-  #container:hover {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#container:hover .project-overlay {
     opacity: 0.8;
-  }
-  
-  #test-container {
-    /* border: 1px solid red; */
-    width: 50vw;
+}
+
+#test-container {
+    border: 1px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-  .project-img {
-    /* border: 1px solid blue; */
+    width: 100%;
+    height: 100%;
+}
+
+.project-img {
+    /* border: 15px solid white; */
     max-width: 500px;
-    margin-bottom: 35%;
-  }
-  
-  .project-overlay {
+    /* margin-bottom: 35%; */
+}
+
+.project-overlay {
     /* border: 3px solid gold; */
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    margin-top: -60%;
-  }
-  
-  .project-span {
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transition: 300ms;
+    opacity: 0;
+
+    background-color: white;
+}
+
+.project-overlay-container {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-span {
     color: rgb(0, 5, 5);
     font-size: large;
-  }
-  
-  .projectbtn {
+}
+
+.projectbtn {
     /* border-radius: 35%; */
     background-color: transparent;
     border: transparent;
     font-size: medium;
     font-weight: bold;
     color: rgb(0, 0, 0);
-  }
-  
-  /* ---project hover effect start---- */
-  .projectbtn {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    position: relative;
-    -webkit-transition-property: color;
-    transition-property: color;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-  }
-  
-  .projectbtn:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #1d88ba;
-    -webkit-transform: scaleY(0);
-    transform: scaleY(0);
-    -webkit-transform-origin: 50% 0;
-    transform-origin: 50% 0;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-  }
-  
-  .projectbtn:hover, .projectbtn:focus, .projectbtn:active {
-    color: white;
-  }
-  
-  .projectbtn:hover:before, .projectbtn:focus:before, .projectbtn:active:before {
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-  }
-    /* ---project button hover effect end---- */
+}
+
+.project-span, .projectbtn {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
   
 /*  ===== Project end =====*/
 
@@ -129,12 +111,12 @@
     /* ----details header start---- */
 
 .details-header {
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     padding: 10px 14px 10px 14px;
 }
 
 .details-container {
-    border: 1px solid goldenrod;
+    /* border: 1px solid goldenrod; */
     margin-left: auto;
     margin-right: auto;
     max-width: 72rem;
@@ -158,7 +140,7 @@
 }
 
 .project-details {
-    border: 1px solid lime;
+    /* border: 1px solid lime; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
