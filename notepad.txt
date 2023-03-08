@@ -1,7 +1,9 @@
--images clickable instead 
+❌ not done 
 -fix button color on hover in Project details
 -add one line summary for projects 
 -add footer and put Connect with me! contact info there
-✅
+-maybe get rid of navbar since the page isn't too long (?)
+✅ done
 -change font 
 -soften up gradient and lighten up font-weight for body text 
+-images clickable instead 
