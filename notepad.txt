@@ -1,4 +1,7 @@
+-images clickable instead 
 -fix button color on hover in Project details
 -add one line summary for projects 
 -add footer and put Connect with me! contact info there
+✅
+-change font 
 -soften up gradient and lighten up font-weight for body text 
