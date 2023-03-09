@@ -20,7 +20,7 @@ const ProjectDetails = () => {
                 <div className='details-container'>
                     <img 
                         src={project.img}
-                        className='project-img'
+                        className='details-project-img'
                         alt='project image'
                     />
                     <div className='project-details'>

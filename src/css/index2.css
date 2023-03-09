@@ -1,6 +1,6 @@
 /*  ===== Project start =====*/
 #projects {
-    /* border: 5px solid red; */
+    border: 5px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,25 +10,36 @@
 }
   
 .project-container {
-    /* border: 3px solid purple; */
+    border: 3px solid purple;
     display: flex;
+    flex-wrap: wrap;
     margin: 5rem auto 5rem auto;
     gap: 4rem;
-    position: relative;
+    /* position: relative; */
 }
 
 #container {
-    /* border: 3px solid black; */
-    position: relative;
-    width: auto;
-    height: auto;
-    box-sizing: border-box;
+    border: 3px solid black;
+    /* position: relative;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 300px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
 }
 
-#container:hover {
+/* #container:hover {
     background-color: white !important;
-    opacity: 0.8;
-}
+    opacity: 0.7;
+} */
 
 .project-img {
     /* border: 1px solid red; */
@@ -37,32 +48,33 @@
     margin-left: auto !important;
 }
 
+.project-img:hover {
+    background: white;
+    opacity: 0.7;
+}
+
 .project-overlay-container {
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     flex-direction: column;
     display: flex;
-    justify-content: center;
     align-items: center;
     color: black;
     z-index: 1;
     position: absolute;
-    top: 43%;
-    left: 43%;
+    box-sizing: border-box;
+    /* top: 32%; */
+    /* left: 32%; */
 }
 
 .project-span {
+    border: 1px solid gold;
     color: rgb(0, 5, 5);
-    font-size: larger;
+    font-size: 50px;
+    z-index: 1 !important;
+    display: flex;
+    align-self: center;
 }
 
-.projectbtn {
-    border-radius: 35%;
-    background-color: transparent;
-    border: transparent;
-    font-size: large;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-}
 /*  ===== Project end =====*/
 
 
@@ -72,6 +84,7 @@
     margin-top: 5%;
     padding: 4rem 0 4rem 0;
     height: 100vh;
+    width: 100vw;
 }
 
     /* ----details header start---- */
@@ -92,12 +105,7 @@
     /* height: 100vh; */
 }
 
-.project-img {
-    /* margin-left: 0; */
-    margin-bottom: 35%;
-}
-
-.project-img {
+.details-project-img {
     /* border: 1px solid blue; */
     max-width: 500px;
     display: flex;
@@ -149,8 +157,8 @@
     line-height: 1rem;
     font-weight: bold;
     text-transform: uppercase;
-    box-shadow: 0 7px #ffffff;
-    background-color: blue;
+    box-shadow: 0 3px #ffffff;
+    background-color: rgb(1, 93, 149);
 }
 
 .detailsbtn:active {
@@ -159,7 +167,9 @@
 }
 
 .detailsbtn:hover {
-    background-color: gold;
+    background-color: white;
+    color: black;
+    font-weight: bold;
 }
     /* ----details header end---- */
 
