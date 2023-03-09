@@ -79,7 +79,7 @@ export default function About() {
                             </div>
                             {/* box 8 */}
                             <div className='about-skills'>
-                                <i className="devicon-postgresql-plain colored"></i>
+                                <i className="devicon-postgresql-plain"></i>
                                 <div className='node-container'>
                                     <p>PostgreSQL</p>
                                 </div>

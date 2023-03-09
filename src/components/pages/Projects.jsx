@@ -19,25 +19,20 @@ const Projects = () => {
                 {projectList.map((project, idx) => {
                     return(
                         <Link key={`project-${idx}`} to={`/${project.slug}`} style={ linkStyle }>
-                            <div id='container' style={{backgroundImage: `url(${project.img})`}}>
-                                {/* <img 
+                            <div id='container' 
+                                style={{backgroundImage: `url(${project.img})`}}
                                 onMouseEnter={e => {
                                     setStyle({display: 'block'})
                                 }}
                                 onMouseLeave={e => {
                                     setStyle({display: 'none'})
                                 }} 
-                                className='project-img' 
-                                src={project.img} 
-                                alt='' /> */}
-                                {/* <div className='project-overlay-container'> */}
-                                    <span className="project-span" style={style}>
-                                        {project.name}
-                                    </span>
-                                {/* </div>   */}
+                            >
+                                <span className="project-span" style={style}>
+                                    {project.name}
+                                </span>
                             </div>
-                        </Link>
-                            
+                        </Link>   
                     ) 
                 })}
             </div>
