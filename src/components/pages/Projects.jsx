@@ -14,7 +14,7 @@ const Projects = () => {
     return (
 
         <div className='' id='projects'>
-            <h1 className='project-title'>Joshwu.Projects 💻</h1>
+            <h1 className='project-title'>JoshWu.Projects 💻</h1>
             <div className='project-container'>
                 {projectList.map((project, idx) => {
                     return(
