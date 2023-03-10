@@ -160,12 +160,10 @@
         gap: 0;
     }
 
-    .project-img {
+    .details-project-img {
+        max-width: 350px;
+        max-height: 200px;
         margin: 5% 0 15% 0;
-    }
-
-    .detailsbtn {
-        box-shadow: none;
     }
 
     .details-bottom {
