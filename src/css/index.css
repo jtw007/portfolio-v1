@@ -30,6 +30,13 @@ body {
   color: rgb(207, 207, 207);
 }
 
+/* ====NavBar START==== */
+.nav-bar {
+  height: 7%;
+}
+
+/* ====NavBar END==== */
+
 /*  ===== About Start ===== */
 #About {
   /* border: 1px solid orange; */

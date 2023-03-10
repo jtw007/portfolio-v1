@@ -14,9 +14,9 @@ import './css/mobile.css'
 
 
 // components/pages import
-import Home from './components/pages/Home';
+import Home from './components/pages/Home'
 import NavBar from './components/NavBar.jsx'
-import ProjectDetails from './components/pages/ProjectDetails';
+import ProjectDetails from './components/pages/ProjectDetails'
 import Footer from './components/Footer'
 
 
