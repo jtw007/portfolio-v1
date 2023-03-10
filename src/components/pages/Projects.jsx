@@ -3,58 +3,36 @@ import { Link } from "react-router-dom";
 import { useState } from 'react';
 
 const Projects = () => {
-    // const [ style, setStyle ] = useState({display: 'none'})
+
+    const [ style, setStyle ] = useState({})
     
-    // const linkStyle = {
-    //     textDecoration: 'none',
-    // }
-    // const projectsArray = projectList?.map((project, idx) => {
-    //     return(
-    //         <div className='project-container' key={`project-${idx}`}>
-    //             <img className='project-img' src={project.img} />
-    //         </div>
-    //     )
-    // })
+    
+    const linkStyle = {
+        textDecoration: 'none',
+    }
 
     return (
 
         <div className='' id='projects'>
-            <h1 className='project-title'>Joshwu.Projects 💻</h1>
+            <h1 className='project-title'>JoshWu.Projects 💻</h1>
             <div className='project-container'>
                 {projectList.map((project, idx) => {
                     return(
-                        // <Link key={`project-${idx}`} to={`/${project.slug}`} style={ linkStyle }>
-                            <div id='container'>
-                                <div id='test-container'>
-                                    <img 
-                                    // onMouseEnter={e => {
-                                    //     setStyle({display: 'block'})
-                                    // }}
-                                    // onMouseLeave={e => {
-                                    //     setStyle({display: 'none'})
-                                    // }} 
-                                    className='project-img' 
-                                    src={project.img} 
-                                    alt='' />
-                                    <div className="project-overlay">
-                                        <div className='project-overlay-container'>
-                                            {/* <span className="project-span" style={style}>
-                                                {project.name}
-                                            </span>
-                                            <button className="projectbtn" style={style}>See more</button> */}
-                                            {/* TEMP */}
-                                            <span className="project-span" >
-                                                {project.name}
-                                            </span>
-                                            <Link key={`project-${idx}`} to={`/${project.slug}`}>
-                                            <button className="projectbtn">See more</button>
-                                            </Link>
-                                        </div>  
-                                    </div>
-                                </div>
+                        <Link key={`project-${idx}`} to={`/${project.slug}`} style={ linkStyle }>
+                            <div id='container' 
+                                style={{backgroundImage: `url(${project.img})`}}
+                                onMouseEnter={e => {
+                                    setStyle({display: 'block'})
+                                }}
+                                onMouseLeave={e => {
+                                    setStyle({display: 'none'})
+                                }} 
+                            >
+                                <span className="project-span" style={style}>
+                                    {project.name}
+                                </span>
                             </div>
-                        // </Link>
-                            
+                        </Link>   
                     ) 
                 })}
             </div>

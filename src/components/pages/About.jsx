@@ -3,15 +3,15 @@ export default function About() {
     return(
         <div id='About' className=''>
             <h1 id='about-text'>JoshWu.About</h1>
-            <p id='connect'>Connect with me!</p>
+            {/* <p id='connect'>Connect with me!</p>
             <div id='about-contact'>
                 <a className='link' href="https://www.linkedin.com/in/joshuatwudev/" target="_blank" rel="noopener noreferrer">
-                    <i className="icon devicon-linkedin-plain colored"></i>
+                    <i className="icon devicon-linkedin-plain"></i>
                 </a>
                 <a className='link' href="https://github.com/jtw007" target="_blank" rel="noopener noreferrer">
                     <i className="icon devicon-github-original"></i>
                 </a>
-            </div>
+            </div> */}
 
             <div id='about-body'>
                 <div id='img-container'>
@@ -79,7 +79,7 @@ export default function About() {
                             </div>
                             {/* box 8 */}
                             <div className='about-skills'>
-                                <i className="devicon-postgresql-plain colored"></i>
+                                <i className="devicon-postgresql-plain"></i>
                                 <div className='node-container'>
                                     <p>PostgreSQL</p>
                                 </div>
