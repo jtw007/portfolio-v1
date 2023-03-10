@@ -12,10 +12,8 @@
         padding: 20px;
     }
     
-    #about-contact {
-        /* border: 1px solid red; */
-        display: flex;
-        width: 45vw;
+    #about-text {
+        padding-bottom: 5px;
     }
     
     #about-body {
@@ -96,6 +94,13 @@
         align-items: center;
     }
 
+    .project-title {
+        /* border: 1px solid purple; */
+        width: 50%;
+        padding-bottom: 5px;
+        display: flex;
+    }
+
     .project-container {
         /* border: 2px solid blue; */
         height: auto;
@@ -138,7 +143,7 @@
     }
 
     .details-container {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         justify-content: space-between;
         flex-direction: column;

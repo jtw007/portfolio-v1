@@ -12,7 +12,8 @@
 .project-title {
     /* border: 1px solid purple; */
     display: flex;
-    width: 15%;
+    flex-direction: row;
+    width: 300px;
     font-weight: bold;
     background: 
         linear-gradient(

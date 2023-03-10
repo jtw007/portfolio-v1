@@ -11,8 +11,8 @@ import {
 export default function Footer() {
   return (
     <MDBFooter className='footer bg-dark text-center text-white'>
-      <MDBContainer className='footer-container p-4 pb-0'>
-        <section className='footer-section mb-4 '>
+      <MDBContainer className='footer-container p-3 pb-0'>
+        <section className='footer-section mb-2 '>
         <p id='connect'>Connect with me!</p>
           <MDBBtn floating className='footer-icon m-1' href="https://www.linkedin.com/in/joshuatwudev/" target="_blank" rel="noopener noreferrer" role='button' style={{ backgroundColor: 'transparent' }}>
             <MDBIcon fab icon='icon devicon-linkedin-plain' />
