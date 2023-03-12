@@ -2,7 +2,14 @@
 
     body {
         background-size: auto;
-      }
+        letter-spacing: 2px;
+    }
+
+    /* ==NavBar start== */
+    .nav-bar {
+        height: auto;
+    }
+    /* ==NavBar end== */
       
 
     /* ==About start== */
@@ -14,6 +21,7 @@
     
     #about-text {
         padding-bottom: 5px;
+        font-size: 23px;
     }
     
     #about-body {
@@ -60,12 +68,20 @@
         justify-content: center;
     }
 
+    #stack {
+        display: flex;
+        align-self: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
     #skills-container {
         /* border: 1px solid black; */
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         flex: 1;
+        width: auto;
     }
     
     .about-skills {
@@ -99,6 +115,7 @@
         width: 50%;
         padding-bottom: 5px;
         display: flex;
+        font-size: 23px;
     }
 
     .project-container {

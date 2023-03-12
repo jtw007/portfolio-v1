@@ -12,7 +12,7 @@ export default function NavBar() {
             style={{ backgroundColor: 'rgba(0, 0, 0)' }} 
         >
             <Container className="d-flex">
-                <Navbar.Brand className="nav-brand fs-3" style={{ color: 'rgba(207, 207, 207)' }} href='/'>JoshuaWu.Dev</Navbar.Brand>
+                <Navbar.Brand className="nav-brand fs-2" style={{ color: 'rgba(207, 207, 207)' }} href='/'>JoshuaWu.Dev</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" 
                 style={{ opacity: '0.5', backgroundColor: 'rgba(16,161,190,1)'}} />
                 <Navbar.Collapse id="basic-navbar-nav">
