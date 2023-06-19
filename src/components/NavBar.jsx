@@ -20,7 +20,7 @@ export default function NavBar() {
                 
                 <Nav className="nav-links me-auto d-flex justify-content-center justify-content-around w-100">
                     <Nav.Link className='nav-link fs-5' style={{ color: 'rgba(207, 207, 207)' }} href="/">Home</Nav.Link>
-                    <Nav.Link className='nav-link fs-5' style={{ color: 'rgba(207, 207, 207)' }} href='https://drive.google.com/file/d/1frBstJ9cFJryhuD5Etm0NUmFdiqEP6Td/view?usp=sharing' target="_blank" rel="noopener noreferrer">Resume</Nav.Link>
+                    <Nav.Link className='nav-link fs-5' style={{ color: 'rgba(207, 207, 207)' }} href='https://drive.google.com/file/d/1Uio8pF0oM6ys2zymGF8uyA4ZD03ns1UE/view?usp=sharing' target="_blank" rel="noopener noreferrer">Resume</Nav.Link>
                     {/* <Nav.Link className='nav-link' style={{ color: 'rgba(207, 207, 207)' }} href="#">About</Nav.Link>
                     <Nav.Link className='nav-link' style={{ color: 'rgba(207, 207, 207)' }} href="#">Projects</Nav.Link> */}
                     <NavDropdown 
