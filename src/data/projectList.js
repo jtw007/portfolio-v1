@@ -31,7 +31,7 @@ export const projectList = [
         img: Project2,
         name: 'CocktailAPI',
         subheader:`Cocktail recipe app that pulls from API Ninja's cocktail API`,
-        desc: 'Full-stack application app using an 3rd party API that displays cocktail recipes.',
+        desc: 'Full-stack application app using an 3rd party API that displays cocktail recipes. *Project was hosted on a paid version of Heroku and as of now does not have a site link, sorry about that!',
         stacks: [
             "HTML",
             "CSS",
