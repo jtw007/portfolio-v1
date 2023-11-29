@@ -176,7 +176,7 @@
 }
 
 .details-built {
-    font-size: 1.875rem;
+    font-size: 2rem;
     font-weight: bold;
     line-height: 2.25rem;
     letter-spacing: -0.05rem;
@@ -199,7 +199,7 @@
 }
 
 .details-stacks {
-    /* font-size: 1rem; */
+    font-size: 1.25rem;
     font-weight: bold;
     line-height: 1rem;
 }
@@ -207,6 +207,7 @@
 .details-desc {
     text-align: center;
     padding: 0 2rem 0 2rem;
+    font-size: 1.25rem;
 }
 /*  ====Project details END==== */
 

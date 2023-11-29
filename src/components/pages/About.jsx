@@ -1,3 +1,4 @@
+import { Icon } from '@iconify/react';
 export default function About() {
     
     return(
@@ -28,21 +29,25 @@ export default function About() {
                         <p id='stack'>Current Stack 📚</p>
 
                         <div id='skills-container'>
-                            {/* Box 1 */}
                             <div className='about-skills'>
                                 <i className="devicon-react-original colored"></i>
                                 <div className='react-container'>
                                     <p>React</p>
                                 </div>
                             </div>
-                            {/* box 2 */}
+                            <div className='about-skills'>
+                                {/* <i className=""></i> */}
+                                <Icon icon="logos:vitejs" />
+                                <div className='vite-container'>
+                                    <p>Vite</p>
+                                </div>
+                            </div>
                             <div className='about-skills'>
                                 <i className="devicon-javascript-plain colored"></i>
                                 <div className='react-container'>
                                     <p>JavaScript</p>
                                 </div>
                             </div>
-                            {/* box 3 */}
                             <div className='about-skills'>
                                 <i className="devicon-html5-plain colored"></i>
                                 <div className='html-container'>
@@ -63,28 +68,30 @@ export default function About() {
                                     <p>Express</p>
                                 </div>
                             </div>
-                            {/* box 6 */}
                             <div className='about-skills'>
                                 <i className="devicon-nodejs-plain colored"></i>
                                 <div className='node-container'>
                                     <p>Node.js</p>
                                 </div>
                             </div>
-                            {/* box 7 */}
                             <div className='about-skills'>
                                 <i className="devicon-bootstrap-plain colored"></i>
                                 <div className='node-container'>
                                     <p>Bootstrap</p>
                                 </div>
                             </div>
-                            {/* box 8 */}
+                            <div className='about-skills'>
+                                <i class="devicon-tailwindcss-plain colored"></i>
+                                <div className='tailwind-container'>
+                                    <p>Tailwind</p>
+                                </div>
+                            </div>
                             <div className='about-skills'>
                                 <i className="devicon-postgresql-plain"></i>
                                 <div className='node-container'>
                                     <p>PostgreSQL</p>
                                 </div>
                             </div>
-                            {/* box 9 */}
                             <div className='about-skills'>
                                 <i className="devicon-mongodb-plain colored"></i>
                                 <div className='node-container'>
